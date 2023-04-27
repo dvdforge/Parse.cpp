@@ -1,0 +1,41 @@
+FileName=bison.exe
+FileDescription=
+RuntimeLibrary=MSVCRT
+CharacterSet=MBCS
+
+MACROS=HAVE_STDLIB_H
+INCLUDES=
+LIBS=
+LIBPATHS=
+CFLAGS=
+LFLAGS=
+AFLAGS=
+AS=
+
+Sources=\
+    alloca.c \
+    allocate.c \
+    closure.c \
+    conflicts.c \
+    derives.c \
+    files.c \
+    getargs.c \
+    getopt.c \
+    getopt1.c \
+    gram.c \
+    lalr.c \
+    lex.c \
+    LR0.c \
+    main.c \
+    nullable.c \
+    output.c \
+    print.c \
+    reader.c \
+    reduce.c \
+    symtab.c \
+    version.c \
+    warshall.c 
+
+PreBuild:
+PostBuild:
+Arguments=
